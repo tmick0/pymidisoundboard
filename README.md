@@ -2,6 +2,8 @@
 
 A simple gstreamer-based soundboard triggered by MIDI, with a Qt configuration interface.
 
+![screenshot](/screenshot.png)
+
 ## Status
 
 This is the culmination of about four hours of effort, so set your expectations appropriately.
