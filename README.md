@@ -13,7 +13,7 @@ However, you can:
 - Choose a MIDI device
 - Choose sound clips
 - Play a note to map it to a clip
-- Trigger that note again layer
+- Trigger that note again later to play the clip
 
 And that's about it.
 
