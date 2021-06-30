@@ -12,6 +12,9 @@ default_config_location = os.path.expanduser("~/.pymidisoundboard.yml")
 
 class config (object):
     def __init__(self, location, dict):
+        if 'pads' in dict and not 'banks' in dict:
+            dict['banks'] = [{'pads': dict['pads'], 'cc': 0}]
+            del dict['pads']
         self.location = location
         self.dict = dict
 
