@@ -6,16 +6,17 @@ A simple gstreamer-based soundboard triggered by MIDI, with a Qt configuration i
 
 ## Status
 
-This is the culmination of about four hours of effort, so set your expectations appropriately.
+This is the culmination of about ~~four~~ six hours of effort, so set your expectations appropriately.
 
-Right now, there's a hardcoded number of rows and columns in the UI. The UI/UX isn't great in general.
+Features include:
 
-However, you can:
-
-- Choose a MIDI device
-- Choose sound clips
-- Play a note to map it to a clip
-- Trigger that note again later to play the clip
+- Choosing a MIDI device
+- Choosing sound clips
+- Playing a note to map it to a clip
+- Triggering that note again later to play the clip
+- Creating multiple banks with their own note and sample mappings
+- Changing banks via MIDI CC (control change) or by selecting the tab
+- Configuring the number of rows, columns, and banks in the UI
 
 And that's about it.
 
